@@ -69,12 +69,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/TheTeaCup',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Tea Cup Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Tea Cup. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -85,13 +85,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/TheTeaCup/docs.theteacup.dev',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/TheTeaCup/docs.theteacup.dev/tree/main/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
