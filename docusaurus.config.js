@@ -9,6 +9,11 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'TheTeaCup', // Usually your GitHub org/user name.
   projectName: 'docs.theteacup.dev', // Usually your repo name.
+  scripts: [
+    {
+      src: "https://arc.io/widget.min.js#PbkwEST4"
+    }
+  ],
   themeConfig: {
     navbar: {
       title: 'Tea Cup',
