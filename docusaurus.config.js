@@ -13,8 +13,8 @@ module.exports = {
     navbar: {
       title: 'Tea Cup',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Logo',
+        src: 'img/teacup.png',
       },
       items: [
         {
@@ -47,16 +47,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Main Website',
+              href: 'https://theteacup.dev',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/invite/GvvAV8zRBK',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/Tea_Cup99',
             },
           ],
         },
